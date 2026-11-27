@@ -1,158 +1,28 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Мария Евтодиева — Portfolio</title>
+# Мария Евтодиева — Portfolio
 
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+**Multimedia Designer**
 
-    body {
-      font-family: "Courier New", monospace;
-      background-color: #f2f2f2;
-      color: #000;
-    }
+Personal portfolio website showcasing my design practice, selected projects and creative interests.
 
-    /* HEADER */
-    header {
-      height: 70px;
-      width: 100%;
-      padding: 0 40px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      background-color: #e8e8e8;
-    }
+## About
 
-    .logo {
-      font-size: 16px;
-      font-weight: 700;
-      text-transform: lowercase;
-    }
+I am a multimedia designer working with digital media and physical spaces. I am interested in visual communication, interactive experiences and the relationship between digital and material environments.
 
-    nav {
-      display: flex;
-      gap: 32px;
-    }
+I also love watching birds.
 
-    nav a {
-      color: #000;
-      text-decoration: none;
-      font-size: 14px;
-      transition: opacity 0.2s ease;
-    }
+## Website
 
-    nav a:hover {
-      opacity: 0.5;
-    }
+🌐 **Live website:** [View portfolio](https://maryevtodieva.github.io/test-portfolio/)
 
-    /* ABOUT SECTION */
-    .about {
-      padding: 40px;
-    }
+## Built with
 
-    .about h1 {
-      font-size: 24px;
-      font-weight: 400;
-      margin-bottom: 30px;
-    }
+- HTML5
+- CSS3
 
-    .about-content {
-      display: flex;
-      align-items: center;
-      gap: 40px;
-    }
+## Project status
 
-    .about-photo {
-      width: 220px;
-      height: 220px;
-      border-radius: 50%;
-      background-color: #d0d0d0;
-      flex-shrink: 0;
-      overflow: hidden;
-    }
+In progress — new sections and projects are being added.
 
-    .about-text {
-      max-width: 600px;
-      font-size: 18px;
-      line-height: 1.6;
-    }
+---
 
-    /* MOBILE */
-    @media (max-width: 600px) {
-      header {
-        padding: 0 20px;
-      }
-
-      .logo {
-        font-size: 13px;
-      }
-
-      nav {
-        gap: 14px;
-      }
-
-      nav a {
-        font-size: 12px;
-      }
-
-      .about {
-        padding: 40px 20px;
-      }
-
-      .about h1 {
-        font-size: 20px;
-      }
-
-      .about-content {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 24px;
-      }
-
-      .about-photo {
-        width: 160px;
-        height: 160px;
-      }
-
-      .about-text {
-        font-size: 16px;
-      }
-    }
-  </style>
-</head>
-
-<body>
-
-  <!-- HEADER -->
-  <header>
-    <div class="logo">мария евтодиева</div>
-
-    <nav>
-      <a href="#about">обо мне</a>
-      <a href="#projects">проекты</a>
-      <a href="#contacts">контакты</a>
-    </nav>
-  </header>
-
-  <!-- ABOUT -->
-  <section class="about" id="about">
-    <h1>обо мне</h1>
-
-    <div class="about-content">
-      <div class="about-photo"></div>
-
-      <div class="about-text">
-        мультимедиа дизайнер. работаю с веб и материальным пространством,
-        люблю смотреть на птиц.
-      </div>
-    </div>
-  </section>
-
-</body>
-</html>
+© 2026 Maria Evtodieva
