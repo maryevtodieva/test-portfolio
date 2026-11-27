@@ -124,6 +124,58 @@
         font-size: 16px;
       }
     }
+    /* CONTACTS */
+.contacts {
+  padding: 40px;
+  margin-top: 40px;
+  background-color: #e8e8e8;
+}
+
+.contacts h1 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.contacts-links {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.contacts-links a {
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+  transition: opacity 0.2s ease;
+}
+
+.contacts-links a:hover {
+  opacity: 0.5;
+}
+
+.contacts-footer {
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 1px solid #bdbdbd;
+  font-size: 12px;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .contacts {
+    padding: 40px 20px;
+  }
+
+  .contacts h1 {
+    font-size: 20px;
+  }
+
+  .contacts-links {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
   </style>
 </head>
 
@@ -153,6 +205,19 @@
       </div>
     </div>
   </section>
+<!-- CONTACTS -->
+<section class="contacts" id="contacts">
+  <h1>связаться со мной</h1>
 
+  <div class="contacts-links">
+    <a href="mailto:maryevtodieva@gmail.com">почта ↗</a>
+    <a href="mashacoder" target="_blank">github ↗</a>
+    <a href="@mariaevtodieva" target="_blank">telegram ↗</a>
+  </div>
+
+  <div class="contacts-footer">
+    © 2026 мария евтодиева
+  </div>
+</section>
 </body>
 </html>
