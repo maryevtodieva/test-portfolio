@@ -124,6 +124,69 @@
         font-size: 16px;
       }
     }
+    /* PROJECTS */
+    .projects {
+      padding: 40px;
+    }
+    .projects h1 {
+      font-size: 24px;
+      font-weight: 400;
+      margin-bottom: 30px;
+    }
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 24px;
+    }
+    .project-card {
+      border: 1px solid #bdbdbd;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      min-height: 260px;
+    }
+    .project-number {
+      font-size: 12px;
+      margin-bottom: 24px;
+    }
+    .project-card h2 {
+      font-size: 20px;
+      font-weight: 400;
+      margin-bottom: 16px;
+    }
+    .project-card p {
+      font-size: 14px;
+      line-height: 1.6;
+      max-width: 600px;
+    }
+    .project-link {
+      color: #000;
+      text-decoration: none;
+      margin-top: auto;
+      padding-top: 24px;
+      font-size: 14px;
+      width: fit-content;
+      transition: opacity 0.2s ease;
+    }
+    .project-link:hover {
+      opacity: 0.5;
+    }
+    @media (max-width: 600px) {
+      .projects {
+        padding: 40px 20px;
+      }
+      .projects h1 {
+        font-size: 20px;
+      }
+      .projects-grid {
+        grid-template-columns: 1fr;
+      }
+      .project-card {
+        min-height: 240px;
+        padding: 20px;
+      }
+    }
+
     /* CONTACTS */
 .contacts {
   padding: 40px;
@@ -205,6 +268,25 @@
       </div>
     </div>
   </section>
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <h1>проекты</h1>
+    <div class="projects-grid">
+      <article class="project-card">
+        <div class="project-number">01 / motion design</div>
+        <h2>Wise × LottieFiles</h2>
+        <p>Система анимаций dotLottie для Wise: переводимые шаблоны, оптимизация веса файлов и масштабируемый процесс создания motion-контента.</p>
+        <a class="project-link" href="https://lottiefiles.com/case-studies/wise" target="_blank" rel="noopener noreferrer">смотреть кейс ↗</a>
+      </article>
+      <article class="project-card">
+        <div class="project-number">02 / typography</div>
+        <h2>Wise Typography Refresh</h2>
+        <p>Обновление типографической системы Wise: сокращение стилей, семантическая структура именования, проверка и адаптивные правила для единообразия интерфейса.</p>
+        <a class="project-link" href="https://nessgrixti.com/portfolio/wise-typography/" target="_blank" rel="noopener noreferrer">смотреть кейс ↗</a>
+      </article>
+    </div>
+  </section>
+
 <!-- CONTACTS -->
 <section class="contacts" id="contacts">
   <h1>связаться со мной</h1>
